@@ -1,0 +1,110 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lobster', cursive;
+    background-color: wheat;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e9f1f3 no-repeat center center;
+    
+}
+
+.bg-light{
+    background-color: rgb(228, 217, 228);
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.nav-link{
+    color: purple!important;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+}
+
+.nav-link:hover{
+    background-color: #b8aeae;
+    border-radius: 15px;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    color: blue;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-size: 170%;
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+    font-weight: bolder;
+
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: rgb(240, 103, 103);
+    color: black;
+    font-weight: bold;
+    
+}
+
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: red;
+    color: blue;
+    transition: 0.1s;
+}
+
+.get-started-content a:hover{
+    background-color: #abcee0;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color:  #e0d2cc;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
